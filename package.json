@@ -1,0 +1,36 @@
+{
+  "name": "fetch-vue-pro",
+  "version": "1.0.0",
+  "description": "fetch vue ajax",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/berlinen/fetch-vue-pro.git"
+  },
+  "keywords": [
+    "fetch",
+    "vue",
+    "ajax"
+  ],
+  "author": "berlinen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/berlinen/fetch-vue-pro/issues"
+  },
+  "homepage": "https://github.com/berlinen/fetch-vue-pro#readme",
+  "dependencies": {
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
