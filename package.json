@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/berlinen/fetch-vue-pro#readme",
   "dependencies": {
+    "vue": "^2.5.21",
     "whatwg-fetch": "^3.0.0"
   },
   "devDependencies": {

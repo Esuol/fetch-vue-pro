@@ -45,7 +45,9 @@ class FetchUtil {
   }
 }
 
-window.$http =  new FetchUtil()
-
-export default window.$http
+export default {
+  install(Vue) {
+    Vue.prototype.$http = new FetchUtil()
+  }
+}
 
