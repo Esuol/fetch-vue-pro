@@ -1,6 +1,6 @@
 {
   "name": "fetch-vue-pro",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "fetch vue ajax",
   "main": "./lib/index.js",
   "scripts": {
