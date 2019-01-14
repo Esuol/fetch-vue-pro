@@ -7,7 +7,7 @@ fetch-vue-pro
 whatag-fetch
 npm i # whatag-fetch
 
-## 安装
+### 安装
 
 npm i # fetch-vue-pro
 
@@ -17,7 +17,7 @@ import fetch-vue from 'fetch-vue-pro'
 
 Vue.user(fetch-vue)
 
-拥有全局变量 APIHOST 项目跟路径
+#### 拥有全局变量 APIHOST 项目跟路径
 
 example
 
@@ -35,7 +35,7 @@ if (process.env.NODE_ENV === 'development') {
 
 }
 
-请求方式
+#### 请求方式
 
 get
 
@@ -45,7 +45,7 @@ or
 
 post
 
-数据格式
+#### 数据格式
 
 form
 
